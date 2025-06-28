@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro - MozengoFlix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cadastro</h1>
+  <form id="registerForm">
+    <input type="text" id="username" placeholder="Usuário" required>
+    <input type="password" id="password" placeholder="Senha" required>
+    <select id="role">
+      <option value="user">Usuário</option>
+      <option value="creator">Criador</option>
+    </select>
+    <button type="submit">Registrar</button>
+  </form>
+  <script src="auth.js"></script>
+</body>
+</html>
